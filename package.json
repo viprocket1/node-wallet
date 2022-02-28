@@ -1,0 +1,22 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@project-serum/serum": "^0.13.61",
+    "@solana/web3.js": "^1.35.1",
+    "bip32": "^2.0.5",
+    "crypto": "^1.0.1",
+    "ed25519-hd-key": "^1.2.0",
+    "node-localstorage": "^2.2.1",
+    "tweetnacl": "^1.0.3",
+    "ws": "^8.5.0"
+  }
+}
