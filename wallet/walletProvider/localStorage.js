@@ -59,7 +59,7 @@ export class LocalStorageWalletProvider {
   };
 
   signTransaction = async (transaction) => {
-    //console.log(this.account);
+    console.log(transaction);
     transaction.partialSign(this.account);
     return transaction;
   };

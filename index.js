@@ -27,6 +27,7 @@ const mnemonic =
   const tokenAddress = new PublicKey(
     "9QPeHFjjyw4jy9GDzs3RvWxWJuwpKBj6RzQpEnwBuAnR"
   );
-  wallet.createTokenAccount(tokenAddress);
-  // wallet.transferSol(destination, 50000);
+  console.log(wallet);
+  //wallet.createTokenAccount(tokenAddress);
+  wallet.transferSol(destination, 50000);
 })();
